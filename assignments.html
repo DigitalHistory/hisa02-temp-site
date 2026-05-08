@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Assignments – HISA02 — Rise of the Machines</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f245066ca199b7326ac6b360085ddf3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">HISA02 — Rise of the Machines</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./weeks/index.html"> 
+<span class="menu-text">Weekly pages</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lectures/index.html"> 
+<span class="menu-text">Lectures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./assignments.html" aria-current="page"> 
+<span class="menu-text">Assignments</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#todo-participation-assignment" id="toc-todo-participation-assignment" class="nav-link active" data-scroll-target="#todo-participation-assignment">TODO Participation :assignment:</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">Details</a></li>
+  </ul></li>
+  <li><a href="#short-assignments-assignmentgroup" id="toc-short-assignments-assignmentgroup" class="nav-link" data-scroll-target="#short-assignments-assignmentgroup">Short Assignments :assignmentgroup:</a>
+  <ul class="collapse">
+  <li><a href="#assignment-1-working-with-sources-assignment" id="toc-assignment-1-working-with-sources-assignment" class="nav-link" data-scroll-target="#assignment-1-working-with-sources-assignment">Assignment 1: Working With Sources :assignment:</a>
+  <ul class="collapse">
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#criteria" id="toc-criteria" class="nav-link" data-scroll-target="#criteria">Criteria</a></li>
+  </ul></li>
+  <li><a href="#assignment-2-article-review-assignment" id="toc-assignment-2-article-review-assignment" class="nav-link" data-scroll-target="#assignment-2-article-review-assignment">Assignment 2: Article Review :assignment:</a>
+  <ul class="collapse">
+  <li><a href="#summary-1" id="toc-summary-1" class="nav-link" data-scroll-target="#summary-1">Summary</a></li>
+  <li><a href="#details-1" id="toc-details-1" class="nav-link" data-scroll-target="#details-1">Details</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
+  </ul></li>
+  <li><a href="#assignment-3-technology-timeline-assignment" id="toc-assignment-3-technology-timeline-assignment" class="nav-link" data-scroll-target="#assignment-3-technology-timeline-assignment">Assignment 3: Technology Timeline :assignment:</a>
+  <ul class="collapse">
+  <li><a href="#summary-2" id="toc-summary-2" class="nav-link" data-scroll-target="#summary-2">Summary</a></li>
+  <li><a href="#details-2" id="toc-details-2" class="nav-link" data-scroll-target="#details-2">Details</a></li>
+  <li><a href="#rubric" id="toc-rubric" class="nav-link" data-scroll-target="#rubric">Rubric</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#final" id="toc-final" class="nav-link" data-scroll-target="#final">Final</a></li>
+  <li><a href="#tutorial-activities-assignmentgroup" id="toc-tutorial-activities-assignmentgroup" class="nav-link" data-scroll-target="#tutorial-activities-assignmentgroup">Tutorial Activities :assignmentgroup:</a>
+  <ul class="collapse">
+  <li><a href="#week-2-what-is-technology-assignment" id="toc-week-2-what-is-technology-assignment" class="nav-link" data-scroll-target="#week-2-what-is-technology-assignment">Week 2: What is Technology? :assignment:</a></li>
+  <li><a href="#week-3-assignment" id="toc-week-3-assignment" class="nav-link" data-scroll-target="#week-3-assignment">Week 3: :assignment:</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Assignments</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>testing out the overview</p>
+<pre class="{emacs-lisp}"><code>(org-lms-get-assignment-groups)
+</code></pre>
+<section id="todo-participation-assignment" class="level1">
+<h1>TODO Participation :assignment:</h1>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>The participation mark in this class is based on two criteria:</p>
+<ul>
+<li>attendance at tutorial</li>
+<li>synchronous and asynchronous contributions to the intellectual life of the class</li>
+</ul>
+<p>Your TA is in charge of participation marks, and may provide further information beyond what is written here.</p>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<p>Participation is more than attendance. It involves contributing to the intellectual development of the class. There are many ways to do this, and not all will be fully captured in this mark. However, your engagement in tutorial section, whether by spoken contributions, Zoom chat, or short writing exercises, is an important participation marker. Your TA will say more about the ways in which you can contribute in your particular section.</p>
+</section>
+</section>
+<section id="short-assignments-assignmentgroup" class="level1">
+<h1>Short Assignments :assignmentgroup:</h1>
+<section id="assignment-1-working-with-sources-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-1-working-with-sources-assignment">Assignment 1: Working With Sources :assignment:</h2>
+<section id="motivation" class="level3">
+<h3 class="anchored" data-anchor-id="motivation">Motivation</h3>
+<p><a href="https://onesearch.library.utoronto.ca/library-staff/whitney-kemble">Librarian Whitney Kemble</a> has graciously made a pair of videos for us about the <a href="https://zotero.org">Zotero</a> reference management software. The importance of this tool should not be underestimated. Using it will save you many hours – many panicked, late-night hours – over the course of your University studies.</p>
+<p>The videos are here:</p>
+<ul>
+<li><a href="https://play.library.utoronto.ca/embed/d909f2a17a0c0c1d9cd4d2ac77940afc">Video 1</a></li>
+<li><a href="https://play.library.utoronto.ca/embed/dff7b56cfad6328944fd5bccde75052e">Video 2</a></li>
+</ul>
+<p>You will need to login with your UTORid in order to watch them.</p>
+<p>More valuable resources on research skills can be found in these <a href="https://utsc.library.utoronto.ca/library-tutorials/how-to-search">search tutorials</a>&nbsp;and the&nbsp;<a href="https://guides.library.utoronto.ca/utsc_hist">History research guide</a>. You will likely find these valuable for this assignment a well as subsequent ones.</p>
+</section>
+<section id="description" class="level3">
+<h3 class="anchored" data-anchor-id="description">Description</h3>
+<p>In this assignment, you will use the bibliographic skills demonstrated in the videos to locate five <strong>scholarly</strong> sources. You will then write a single, coherent paragraph in which you cite all five sources, and include a Bibliography with full bibliographic information for each source.</p>
+<p>The sources and the paragraph should be relevant to one of the course lectures you have heard. Your choices are:</p>
+<ul>
+<li>What is Technology?</li>
+<li>Ancient Agriculture</li>
+<li>Technologies of Ancient Warfare</li>
+<li>The Writing on the Wall</li>
+<li>Technologies of the Sea</li>
+<li>Technologies of Administration</li>
+</ul>
+</section>
+<section id="criteria" class="level3">
+<h3 class="anchored" data-anchor-id="criteria">Criteria</h3>
+<ul>
+<li>Your sources should all be <strong>scholarly sources</strong>. For a definition of a scholarly source, <a href="https://guides.library.utoronto.ca/c.php?g=250701&amp;p=5383266">see this link</a>. They should also be <strong>relevant to the subject matter at hand</strong>, and <strong>must not already be in <a href="https://www.zotero.org/groups/5895731/rise_of_the_machines">the group Zotero library for this class</a>.</strong></li>
+<li>Your paragraph should reference all five sources and <strong>very briefly</strong> summarize their contributions to your understanding of the topic. It should be clear, concise, and demonstrate your grasp of the subject matter. Length: ~150 +/- 50 w0rds.</li>
+<li>Your citations and bibliography should use either the <a href="https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_general_format.html">MLA</a> or the <a href="https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/chicago_manual_of_style_17th_edition.html">Chicago (Notes)</a> style. You should use Zotero to format them perfectly. No partial credit is given for this part of the assignment.</li>
+</ul>
+</section>
+</section>
+<section id="assignment-2-article-review-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-2-article-review-assignment">Assignment 2: Article Review :assignment:</h2>
+<section id="summary-1" class="level3">
+<h3 class="anchored" data-anchor-id="summary-1">Summary</h3>
+<p>Use the research and bibliographic skills you developed in assignment 1 to write a short (3pp, ~800 words) essay engaging with a course reading. Develop an argument, give convincing evidence, and cite at least two additional scholarly sources which also cite the article you have chosen.</p>
+</section>
+<section id="details-1" class="level3">
+<h3 class="anchored" data-anchor-id="details-1">Details</h3>
+<p>This is a lightly-modified “reading response paper”. Your job is to respond to an author’s arguments, either by disagreeing with a point they make, or by extending or enhancing their argument, or, sometimes, all of the above. For this particular assignment, you should <strong>also</strong> engage with additional sources by authors already engaged in a conversation with the source you are reading.</p>
+<p>Your essay should present a clear and compelling argument about the strengths and/or weaknesses of the original source. Your argument should be supported by evidence. Present evidence from both the original reading, and the additional sources you are using. Write in a clear style, and bear in mind the intellectual frameworks that you have learned thus far in the course.</p>
+<p>Use <strong>Modern Language Association (9th edition)</strong> for all citations and bibliography.</p>
+</section>
+<section id="readings" class="level3">
+<h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<p>Respond to one of the following readings in your essay:</p>
+<ul>
+<li><span class="citation" data-cites="marxTechnologyEmergenceHazardous2010">(<a href="#ref-marxTechnologyEmergenceHazardous2010" role="doc-biblioref">Marx 2010</a>)</span></li>
+<li><span class="citation" data-cites="franklinRealWorldTechnology1999">(<a href="#ref-franklinRealWorldTechnology1999" role="doc-biblioref">Franklin 1999</a>)</span></li>
+<li><span class="citation" data-cites="gabrialHistoryWritingTechnologies2023">(<a href="#ref-gabrialHistoryWritingTechnologies2023" role="doc-biblioref">Gabrial 2023</a>)</span></li>
+<li>“Landscaping the World”, in <span class="citation" data-cites="scottGrainDeepHistory2017">(<a href="#ref-scottGrainDeepHistory2017" role="doc-biblioref">Scott 2017</a>)</span></li>
+<li><span class="citation" data-cites="thompsonTimeWorkDisciplineIndustrial1967">(<a href="#ref-thompsonTimeWorkDisciplineIndustrial1967" role="doc-biblioref">Thompson 1967</a>)</span></li>
+</ul>
+<p>Your additional sources should cite the reading you choose. A <a href="https://libguides.uww.edu/googlescholar/citedby">Google Scholar citation search</a> can help you in your search.</p>
+</section>
+</section>
+<section id="assignment-3-technology-timeline-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-3-technology-timeline-assignment">Assignment 3: Technology Timeline :assignment:</h2>
+<section id="summary-2" class="level3">
+<h3 class="anchored" data-anchor-id="summary-2">Summary</h3>
+<p>Choose an everyday technology that forms part of your daily life. It can be ubiquitous (forks, laptop computers, paper clips) or rare. Using <a href="https://timeline.knightlab.com/">TimelineJS</a>, create a timeline identifying important dates in this technology’s history. Then write a brief (900-1100 word) essay about that history.</p>
+</section>
+<section id="details-2" class="level3">
+<h3 class="anchored" data-anchor-id="details-2">Details</h3>
+<p>This is a <strong>short research paper</strong> accompanied by a <strong>simple visualization</strong>. Let’s talk about the research paper first, and then about the visualization.</p>
+<p>A research paper is a chance to make and support an <strong>argument</strong> about a historical phenomenon. Your paper should express – and support! – a point of view about its subject. Why is this technology interesting? What “affordances” does it have – what kinds of action does it encourage or discourage? You will need to answer questions like these. While brief, your paper should have an introduction, a conclusion, and several body paragraphs, each of which makes a point and provides evidence for it.</p>
+<p><strong>Research Requirements:</strong></p>
+<ul>
+<li>Use at least 5 scholarly sources (academic books, journal articles, or equivalent)</li>
+<li>Sources must be relevant to your technology’s history and cultural impact</li>
+<li>Go beyond basic encyclopedia entries or Wikipedia for your core evidence</li>
+<li>Consider primary sources where available (patents, advertisements, user manuals, etc.)</li>
+</ul>
+<p><strong>Choosing a Technology</strong> Think about the technologies in your life. Where do they come form? What effects do they have on your life? What broader effects have they had in the world? Make a list of two or three or five or ten that are of interest to you. <em>[note: doubtless it is frustrating that I am not listing anything specific. But if I do, then 50% of you will write about one of my examples.]</em></p>
+<p>Then confirm that there is extant scholarly literature about the <strong>history</strong> of the technologies you are considering. Skim a few articles. Soon you will find some facts and arguments that genuinely interest you. This is a sign that the topic is a good match for you; choose that subject.</p>
+<p><strong>Timeline Requirements:</strong> <a href="https://timeline.knightlab.com/">TimelineJS</a> is a simple tool for making timelines. Before starting, think about this “information technology” and its role in transmitting/enhancing an argument. Your timeline should:</p>
+<ul>
+<li>Contain at least 8 entries spanning your technology’s development</li>
+<li>Include pictures in at least 5 entries (ensure images use Creative Commons licensing)</li>
+<li>Support and complement your essay’s argument</li>
+<li><a href="[Quercus link unavailable]">The library has kindly provided a timeline module here</a> which contains many details about timelines, including helpful guidelines about fair use of images. <em>(Quercus link unavailable during outage)</em> has specific instructions about how to use TimelineJS. Read this carefully. <strong>Please note: this module may be revised slightly in the next day or two.</strong></li>
+</ul>
+<p><strong>Format Requirements:</strong></p>
+<ul>
+<li>Citations in Chicago style (either Notes-Bibliography or Author-Date)</li>
+<li>Include a complete bibliography</li>
+<li>Submit both your essay and a link to your published TimelineJS timeline</li>
+</ul>
+</section>
+<section id="rubric" class="level3">
+<h3 class="anchored" data-anchor-id="rubric">Rubric</h3>
+<p>The Rubric below is provided as an approximate guide. Your project’s final grade may deviate slightly from the percentages assigned in the rubric, especially in cases of unusual excellence or deficit in one or another category.</p>
+</section>
+</section>
+</section>
+<section id="final" class="level1">
+<h1>Final</h1>
+<p>Details TBD</p>
+</section>
+<section id="tutorial-activities-assignmentgroup" class="level1">
+<h1>Tutorial Activities :assignmentgroup:</h1>
+<section id="week-2-what-is-technology-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="week-2-what-is-technology-assignment">Week 2: What is Technology? :assignment:</h2>
+<p>Please hand in the notebook from class 2 here. You wil lhave to download it form JuptyerHub or JupyterLab, whichever you were working in. Thanks!</p>
+</section>
+<section id="week-3-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="week-3-assignment">Week 3: :assignment:</h2>
+<p>Please hand in one of the following:</p>
+<ul>
+<li>a text document containing your answers to the first set of questions we discussed in class, concerning “humanities questions” and “non-humanities questions”</li>
+<li>an html file containing containing the “published” version of your twine project (which we worked on in the final 40 minutes of class).</li>
+</ul>
+</section>
+</section>
+<section id="references" class="level1">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-franklinRealWorldTechnology1999" class="csl-entry" role="listitem">
+Franklin, Ursula M. 1999. <em>The Real World of Technology</em>. Revised edition. <span>CBC Massey</span> Lectures Series. Toronto, Ontario: Anansi.
+</div>
+<div id="ref-gabrialHistoryWritingTechnologies2023" class="csl-entry" role="listitem">
+Gabrial, Brian. 2023. <span>“History of <span>Writing Technologies Redux</span>.”</span> In <em>The <span>Routledge</span> International Handbook of Research on Writing</em>, edited by Rosalind Horowitz, Second edition. Routledge Handbooks in Communication Studies. New York, New York ; Routledge.
+</div>
+<div id="ref-marxTechnologyEmergenceHazardous2010" class="csl-entry" role="listitem">
+Marx, Leo. 2010. <span>“Technology: <span>The Emergence</span> of a <span>Hazardous Concept</span>.”</span> <em>Technology and Culture</em> 51 (3): 561–77. <a href="https://www.jstor.org/stable/40927986">https://www.jstor.org/stable/40927986</a>.
+</div>
+<div id="ref-scottGrainDeepHistory2017" class="csl-entry" role="listitem">
+Scott, James C. 2017. <em>Against the Grain: A Deep History of the Earliest States</em>. Yale Agrarian Studies. New Haven, Connecticut: Yale University Press. <a href="https://doi.org/10.12987/9780300231687">https://doi.org/10.12987/9780300231687</a>.
+</div>
+<div id="ref-thompsonTimeWorkDisciplineIndustrial1967" class="csl-entry" role="listitem">
+Thompson, E. P. 1967. <span>“Time, <span>Work-Discipline</span>, and <span>Industrial Capitalism</span>.”</span> <em>Past &amp; Present</em>, no. 38: 56–97. <a href="http://www.jstor.org/stable/649749">http://www.jstor.org/stable/649749</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>HISA02 — temporary outage mirror. Maintained by Matt Price.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
