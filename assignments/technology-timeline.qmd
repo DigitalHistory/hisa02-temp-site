@@ -1,0 +1,47 @@
+---
+title: "Assignment 3: Technology Timeline"
+---
+
+## Summary
+
+Choose an everyday technology that forms part of your daily life. It can be ubiquitous (forks, laptop computers, paper clips) or rare. Using [TimelineJS](https://timeline.knightlab.com/), create a timeline identifying important dates in this technology's history. Then write a brief (900-1100 word) essay about that history.
+
+
+## Details
+
+This is a **short research paper** accompanied by a **simple visualization**. Let's talk about the research paper first, and then about the visualization.
+
+A research paper is a chance to make and support an **argument** about a historical phenomenon. Your paper should express – and support! – a point of view about its subject. Why is this technology interesting? What "affordances" does it have – what kinds of action does it encourage or discourage? You will need to answer questions like these. While brief, your paper should have an introduction, a conclusion, and several body paragraphs, each of which makes a point and provides evidence for it.
+
+**Research Requirements:**
+
+-   Use at least 5 scholarly sources (academic books, journal articles, or equivalent)
+-   Sources must be relevant to your technology's history and cultural impact
+-   Go beyond basic encyclopedia entries or Wikipedia for your core evidence
+-   Consider primary sources where available (patents, advertisements, user manuals, etc.)
+
+**Choosing a Technology** Think about the technologies in your life. Where do they come form? What effects do they have on your life? What broader effects have they had in the world? Make a list of two or three or five or ten that are of interest to you. *[note: doubtless it is frustrating that I am not listing anything specific. But if I do, then 50% of you will write about one of my examples.]*
+
+Then confirm that there is extant scholarly literature about the **history** of the technologies you are considering. Skim a few articles. Soon you will find some facts and arguments that genuinely interest you. This is a sign that the topic is a good match for you; choose that subject.
+
+**Timeline Requirements:** [TimelineJS](https://timeline.knightlab.com/) is a simple tool for making timelines. Before starting, think about this "information technology" and its role in transmitting/enhancing an argument. Your timeline should:
+
+-   Contain at least 8 entries spanning your technology's development
+-   Include pictures in at least 5 entries (ensure images use Creative Commons licensing)
+-   Support and complement your essay's argument
+-   [The library has kindly provided a timeline module here]([Quercus link unavailable]) which contains many details about timelines, including helpful guidelines about fair use of images. *(Quercus link unavailable during outage)* has specific instructions about how to use TimelineJS. Read this carefully. **Please note: this module may be revised slightly in the next day or two.**
+
+**Format Requirements:**
+
+-   Citations in Chicago style (either Notes-Bibliography or Author-Date)
+-   Include a complete bibliography
+-   Submit both your essay and a link to your published TimelineJS timeline
+
+
+## Rubric
+
+The Rubric below is provided as an approximate guide. Your project's final grade may deviate slightly from the percentages assigned in the rubric, especially in cases of unusual excellence or deficit in one or another category.
+
+
+# References
+

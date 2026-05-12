@@ -1,0 +1,33 @@
+---
+title: "Assignment 2: Article Review"
+---
+
+## Summary
+
+Use the research and bibliographic skills you developed in assignment 1 to write a short (3pp, ~800 words) essay engaging with a course reading. Develop an argument, give convincing evidence, and cite at least two additional scholarly sources which also cite the article you have chosen.
+
+
+## Details
+
+This is a lightly-modified "reading response paper". Your job is to respond to an author's arguments, either by disagreeing with a point they make, or by extending or enhancing their argument, or, sometimes, all of the above. For this particular assignment, you should **also** engage with additional sources by authors already engaged in a conversation with the source you are reading.
+
+Your essay should present a clear and compelling argument about the strengths and/or weaknesses of the original source. Your argument should be supported by evidence. Present evidence from both the original reading, and the additional sources you are using. Write in a clear style, and bear in mind the intellectual frameworks that you have learned thus far in the course.
+
+Use **Modern Language Association (9th edition)** for all citations and bibliography.
+
+
+## Readings
+
+Respond to one of the following readings in your essay:
+
+-   [@marxTechnologyEmergenceHazardous2010]
+-   [@franklinRealWorldTechnology1999]
+-   [@gabrialHistoryWritingTechnologies2023]
+-   "Landscaping the World", in [@scottGrainDeepHistory2017]
+-   [@thompsonTimeWorkDisciplineIndustrial1967]
+
+Your additional sources should cite the reading you choose. A [Google Scholar citation search](https://libguides.uww.edu/googlescholar/citedby) can help you in your search.
+
+
+# References
+

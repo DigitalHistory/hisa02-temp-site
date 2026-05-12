@@ -19,3 +19,80 @@ a[href$=".pdf"]::after {
 ul li > p {
   margin-bottom: 0.25rem;
 }
+
+/* ─── Fat-toggle sections ────────────────────────────────────────────────
+   The org sources mark some headings with `:CANVAS_HTML_FAT: t` and
+   `:CANVAS_HTML_TOGGLE: t`. The build pipeline rewrites those headings
+   into <details class="fat-toggle">/<summary> blocks (see
+   TempWebsite/build/single-page-export.el and wrap-accordions.py). Style
+   them as warm cream banners matching the slide background gear palette. */
+
+details.fat-toggle {
+  margin: 1.5rem 0;
+  border: 1px solid #d4c79a;
+  border-radius: 6px;
+  background-color: #fffbe7;
+  overflow: hidden;
+}
+
+details.fat-toggle > summary {
+  /* Strip the default disclosure triangle so we can supply our own. */
+  list-style: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem 0.7rem 2.2rem;
+  background-color: #f5e9c6;
+  color: #5a4a2a;
+  font-weight: 600;
+  font-size: 1.15rem;
+  user-select: none;
+  position: relative;
+  transition: background-color 0.15s ease-in-out;
+}
+
+details.fat-toggle > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom disclosure indicator: a rotating chevron pseudo-element. */
+details.fat-toggle > summary::before {
+  content: "▶";
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.75rem;
+  color: #8a7340;
+  transition: transform 0.15s ease-in-out;
+}
+
+details.fat-toggle[open] > summary::before {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+details.fat-toggle > summary:hover {
+  background-color: #eedfb4;
+}
+
+details.fat-toggle > summary:focus-visible {
+  outline: 2px solid #8a7340;
+  outline-offset: -2px;
+}
+
+/* Separator between the banner and content when open. */
+details.fat-toggle[open] > summary {
+  border-bottom: 1px solid #d4c79a;
+}
+
+/* Inner content area: standard prose padding. */
+details.fat-toggle > *:not(summary) {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+
+details.fat-toggle > *:not(summary):first-of-type {
+  margin-top: 0.9rem;
+}
+
+details.fat-toggle > *:not(summary):last-child {
+  margin-bottom: 0.9rem;
+}

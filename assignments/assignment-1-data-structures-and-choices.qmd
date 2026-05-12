@@ -1,0 +1,30 @@
+---
+title: "Assignment 1: Working With Sources"
+---
+
+## Motivation
+
+[Librarian Whitney Kemble](https://onesearch.library.utoronto.ca/library-staff/whitney-kemble) has graciously made a pair of videos for us about the [Zotero](https://zotero.org) reference management software. The importance of this tool should not be underestimated. Using it will save you many hours – many panicked, late-night hours – over the course of your University studies.
+
+The videos are here:
+
+-   [Video 1](https://play.library.utoronto.ca/embed/d909f2a17a0c0c1d9cd4d2ac77940afc)
+-   [Video 2](https://play.library.utoronto.ca/embed/dff7b56cfad6328944fd5bccde75052e)
+
+You will need to login with your UTORid in order to watch them.
+
+More valuable resources on research skills can be found in these [search tutorials](https://utsc.library.utoronto.ca/library-tutorials/how-to-search) and the [History research guide](https://guides.library.utoronto.ca/utsc_hist). You will likely find these valuable for this assignment a well as subsequent ones.
+
+
+## Description
+
+
+## Criteria
+
+-   Your sources should all be **scholarly sources**. For a definition of a scholarly source, [see this link](https://guides.library.utoronto.ca/c.php?g=250701&p=5383266). They should also be **relevant to the subject matter at hand**, and **must not already be in [the group Zotero library for this class](https://www.zotero.org/groups/5895731/rise_of_the_machines).** (2 points)
+-   Your paragraph should reference all five sources and **very briefly** summarize their contributions to your understanding of the topic. It should be clear, concise, and demonstrate your grasp of the subject matter. Length: ~150 +/- 50 words.(2 points)
+-   Your citations and bibliography should use either the [MLA](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_general_format.html) or the [Chicago (Notes)](https://owl.purdue.edu/owl/research_and_citation/chicago_manual_18th_edition/cmos_formatting_and_style_guide/general_format.html) style. You should use Zotero to format them perfectly. No partial credit is given for this part of the assignment. (1 point)
+
+
+# References
+
